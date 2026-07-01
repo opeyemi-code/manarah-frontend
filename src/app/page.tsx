@@ -13,7 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="space-y-section border">
+    <div className="space-y-section">
       {/* Hero */}
       <section className="rounded-card bg-gradient-to-br from-primary-light to-white p-6 md:p-10">
         <Badge variant="secondary" className="mb-4">
