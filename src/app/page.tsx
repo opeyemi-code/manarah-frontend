@@ -13,7 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="space-y-section">
+    <div className="space-y-section border">
       {/* Hero */}
       <section className="rounded-card bg-gradient-to-br from-primary-light to-white p-6 md:p-10">
         <Badge variant="secondary" className="mb-4">
@@ -21,8 +21,8 @@ export default function Home() {
         </Badge>
         <h1 className="max-w-xl">Learn · Teach · Compete</h1>
         <p className="mt-3 max-w-lg text-body text-neutral-muted">
-          Connect with qualified tutors, join Islamic competitions, and grow your knowledge — all
-          in one place.
+          Connect with qualified tutors, join Islamic competitions, and grow your knowledge — all in
+          one place.
         </p>
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <ButtonLink href="/register" size="lg">
@@ -61,7 +61,9 @@ export default function Home() {
               <CardTitle>Competition Hub</CardTitle>
               <Badge variant="premium">Open</Badge>
             </div>
-            <CardDescription>Register for Quran recitation, Hifz, and quiz competitions.</CardDescription>
+            <CardDescription>
+              Register for Quran recitation, Hifz, and quiz competitions.
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <p>Join competitions, upload documents, and earn certificates.</p>
