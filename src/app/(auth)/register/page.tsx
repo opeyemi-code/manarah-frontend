@@ -3,7 +3,7 @@
 import { Button, ButtonLink, Card, CardDescription, CardHeader, Input } from "@/components/ui";
 import { togglePassword } from "@/lib/utils";
 import clsx from "clsx";
-import { Earth, Eye, EyeOff } from "lucide-react";
+import { Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
 import { IoShieldCheckmark } from "react-icons/io5";
 import { FaGlobeAfrica } from "react-icons/fa";
