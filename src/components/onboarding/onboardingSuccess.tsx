@@ -30,7 +30,7 @@ export default function OnboardingSuccess({
 }: OnboardingSuccessPropType) {
   return (
     <>
-      <Card className="my-5 sm:max-w-[35rem] md:max-w-[40rem] border">
+      <Card className="my-5 sm:max-w-[35rem]">
         <div className="text-center">
           <span className="bg-slate-200 p-8 rounded-full inline-block">
             <CircleCheck className="text-primary" size={52} aria-hidden="false" />
